@@ -64,7 +64,17 @@ after this, you need to switch to the branch created by using the following code
     once that is done....
 
 4. Commit changes to your branch created
+    <code>
+        git commit -m "descriptive commit message"
+    </code>
+5. Add all files
+    <code>
+        git add .
+    </code>
 5. Following any formatting and testing guidelines specific to this repo
 6. Push changes to your fork
+    <code>
+        git push -u origin <your-branch-name>
+    </code>
 7. Open a PR in our repository and follow the PR template so that we can efficiently review the changes.
 8. Wait for confirmation.
