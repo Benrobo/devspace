@@ -277,6 +277,9 @@ body{
 	body{
 		padding:0px;
 	}
+	.nav ul li a.btn.github{
+		font-size:12px;
+	}
 	.header .ovl img{
 		display: none !important;
 	}
@@ -287,4 +290,5 @@ body{
 	.section .boxes{
 		justify-content: center;
 	}
+
 }
