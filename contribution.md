@@ -24,22 +24,23 @@ PRs to our devspace are always welcome and can be a quick way to get your fix or
 
 1. Fork the repository to your own Github account to have access to all codes
 2. Clone the project to your machine using the below command
-<code>
+<pre>
     git clone @github.comurl
-</code>
+</pre>
 3. Create a branch locally with a descriptive name
-<code>
+<pre>
     git branch <branch-name>
-</code>
+</pre>
 after this, you need to switch to the branch created by using the following codes below
-<code>
+<pre>
     git checkout <branch-name>
-</code>
+</pre>
+
 4. You are restricted from editing any code in <b>app.js</b> all you need to do is add a new <b>box</b> div element to the <b>boxes</b> container.
     Once that upload a PNG image type to <b>uploads</b> folder with your name then replace the image src attribute to the name of your uploaded file.
     Not abbiding to the rules would result in disapproved of PR.
     ed
-    ``html
+    ``
         <div class="box">
             <div class="img-cont">
                 <div class="ovl">
@@ -64,17 +65,17 @@ after this, you need to switch to the branch created by using the following code
     once that is done....
 
 4. Commit changes to your branch created
-    <code>
+    <pre>
         git commit -m "descriptive commit message"
-    </code>
+    </pre>
 5. Add all files
-    <code>
+    <pre>
         git add .
-    </code>
+    </pre>
 5. Following any formatting and testing guidelines specific to this repo
 6. Push changes to your fork
-    <code>
+    <pre>
         git push -u origin <your-branch-name>
-    </code>
+    </pre>
 7. Open a PR in our repository and follow the PR template so that we can efficiently review the changes.
 8. Wait for confirmation.
