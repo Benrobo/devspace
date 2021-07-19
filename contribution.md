@@ -40,7 +40,7 @@ after this, you need to switch to the branch created by using the following code
     Once that upload a PNG image type to <b>uploads</b> folder with your name then replace the image src attribute to the name of your uploaded file.
     Not abbiding to the rules would result in disapproved of PR.
     ed
-<pre>
+```javascript
         <div class="box">
             <div class="img-cont">
                 <div class="ovl">
@@ -61,7 +61,7 @@ after this, you need to switch to the branch created by using the following code
                 <br>
             </div>
         </div>
-</pre>
+```
     once that is done....
 
 4. Commit changes to your branch created
