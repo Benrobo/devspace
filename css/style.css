@@ -15,6 +15,7 @@ body{
 	padding:10px 10px;
 	background-image:Radial-gradient(cyan, blue);
 	font-family: 'Poppins', sans-serif !important;
+	overflow-x: hidden;
 }
 
 
