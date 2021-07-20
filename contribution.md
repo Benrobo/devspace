@@ -29,7 +29,9 @@ PRs to our devspace are always welcome and can be a quick way to get your fix or
 </pre>
 3. Create a branch locally with a descriptive name
 <pre>
-    git branch <branch-name>
+<code>
+    git branch branch-name
+</code>
 </pre>
 after this, you need to switch to the branch created by using the following codes below
 <pre>
@@ -75,7 +77,7 @@ after this, you need to switch to the branch created by using the following code
 5. Following any formatting and testing guidelines specific to this repo
 6. Push changes to your fork
     <pre>
-        git push -u origin <your-branch-name>
+        git push -u origin your-branch-name
     </pre>
 7. Open a PR in our repository and follow the PR template so that we can efficiently review the changes.
 8. Wait for confirmation.
