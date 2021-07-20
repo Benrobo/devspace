@@ -35,7 +35,7 @@ PRs to our devspace are always welcome and can be a quick way to get your fix or
 </pre>
 after this, you need to switch to the branch created by using the following codes below
 <pre>
-    git checkout <branch-name>
+    git checkout branch-name
 </pre>
 
 4. You are restricted from editing any code in <b>app.js</b> all you need to do is add a new <b>box</b> div element to the <b>boxes</b> container.
